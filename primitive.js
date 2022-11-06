@@ -14,3 +14,17 @@ non-primitive
 6. object
 */
 
+let a = 'hello';
+let b = a;
+// console.log(a, b);
+a = 'gello';
+// console.log(a, b);
+
+const x = {
+    job: 'web developer'
+};
+const y = x;
+// console.log(x, y);
+// x.job = 'front end Developer';
+y.job = 'front end Developer';
+console.log(x, y);
